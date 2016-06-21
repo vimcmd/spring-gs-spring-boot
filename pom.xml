@@ -25,6 +25,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <!-- NOTE: new RESTful endpoinds will be added to application (/health, /metrics, /mappings etc.) -->
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
